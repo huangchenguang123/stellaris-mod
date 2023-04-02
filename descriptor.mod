@@ -1,0 +1,9 @@
+version="0.0.1-SNAP"
+tags={
+	"Buildings"
+	"Balance"
+	"Events"
+	"Technologies"
+}
+name="stellaris-story"
+supported_version="3.7.4"
