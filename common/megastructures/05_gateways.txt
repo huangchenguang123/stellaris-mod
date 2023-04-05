@@ -1,4 +1,5 @@
 # see README.txt for example
+# 禁止ai建造
 
 gateway_0 = {
 	entity = "construction_platform_entity"
