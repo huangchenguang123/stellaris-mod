@@ -20,7 +20,7 @@ starbase_starport = {
 		ship_armor_add = 2000
 		starbase_module_capacity_add = 4
 		starbase_building_capacity_add = 2
-		starbase_defense_platform_capacity_add = 12
+		starbase_defense_platform_capacity_add = 24
 		#trade system
 		starbase_trade_collection_range_add = 1
 		starbase_trade_protection_range_add = 1
@@ -93,7 +93,7 @@ starbase_starhold = {
 		ship_armor_add = 5000
 		starbase_module_capacity_add = 8
 		starbase_building_capacity_add = 4
-		starbase_defense_platform_capacity_add = 18
+		starbase_defense_platform_capacity_add = 36
 		#trade system
 		starbase_trade_collection_range_add = 1
 		starbase_trade_protection_range_add = 1
@@ -167,7 +167,7 @@ starbase_starfortress = {
 		ship_armor_add = 10000
 		starbase_module_capacity_add = 12
 		starbase_building_capacity_add = 6
-		starbase_defense_platform_capacity_add = 24
+		starbase_defense_platform_capacity_add = 48
 		#trade system
 		starbase_trade_collection_range_add = 1
 		starbase_trade_protection_range_add = 1
@@ -243,7 +243,7 @@ starbase_citadel = {
 		ship_armor_add = 20000
 		starbase_module_capacity_add = 20
 		starbase_building_capacity_add = 10
-		starbase_defense_platform_capacity_add = 30
+		starbase_defense_platform_capacity_add = 60
 		#trade system
 		starbase_trade_collection_range_add = 1
 		starbase_trade_protection_range_add = 1

@@ -1,4 +1,4 @@
-    NGameplay = {
+NGameplay = {
     #Number of tick commands we sent per turn, this is very useful for ppl running the game in fullscreen, a much faster simulation speed should be reached
     NUM_COMMANDS_PER_TURN = 2
 

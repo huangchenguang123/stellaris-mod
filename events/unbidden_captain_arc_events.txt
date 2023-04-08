@@ -1,0 +1,177 @@
+namespace = unbidden_captain_arc
+
+planet_event = {
+
+    id = unbidden_captain_arc.1
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = {
+        owner = {
+            is_ai = no
+            NOT = {
+                has_country_flag = has_create_unbidden_captain_arc
+            }
+        }
+        from = { is_planet_class = pc_ocean }
+    }
+
+    immediate = {
+        owner = {
+            set_country_flag =  has_create_unbidden_captain_arc
+        }
+        create_archaeological_site = site_high_dimensional_distress_signal
+    }
+
+}
+
+fleet_event = {
+
+    id = unbidden_captain_arc.2
+    title = unbidden_captain_arc.stage.2.name
+    desc = unbidden_captain_arc.stage.2.desc
+    picture = GFX_evt_worrying_signal
+    show_sound = event_wind_ruins
+    location = from
+
+    archaeology = yes
+
+    is_triggered_only = yes
+
+    immediate = {
+        from = {
+            set_site_progress_locked = yes
+        }
+    }
+
+    option = {
+        name = unbidden_captain_arc.stage.2.yes
+        small_artifact_reward = yes
+    }
+
+    after = {
+        from = {
+            set_site_progress_locked = no
+        }
+    }
+
+}
+
+fleet_event = {
+
+    id = unbidden_captain_arc.3
+    title = unbidden_captain_arc.stage.3.name
+    desc = unbidden_captain_arc.stage.3.desc
+    picture = GFX_evt_outpost
+    show_sound = event_wind_ruins
+    location = from
+
+    archaeology = yes
+
+    is_triggered_only = yes
+
+    immediate = {
+        from = {
+            set_site_progress_locked = yes
+        }
+    }
+
+    option = {
+        name = unbidden_captain_arc.stage.3.yes
+        small_artifact_reward = yes
+    }
+
+    after = {
+        from = {
+            set_site_progress_locked = no
+        }
+    }
+
+}
+
+fleet_event = {
+
+    id = unbidden_captain_arc.4
+    title = unbidden_captain_arc.stage.4.name
+    desc = unbidden_captain_arc.stage.4.desc
+    picture = GFX_evt_wormhole
+    show_sound = event_wind_ruins
+    location = from
+
+    archaeology = yes
+
+    is_triggered_only = yes
+
+    immediate = {
+        from = {
+            set_site_progress_locked = yes
+        }
+    }
+
+    option = {
+        name = unbidden_captain_arc.stage.4.yes
+        small_artifact_reward = yes
+    }
+
+    after = {
+        from = {
+            set_site_progress_locked = no
+        }
+    }
+
+}
+
+fleet_event = {
+
+    id = unbidden_captain_arc.5
+    title = unbidden_captain_arc.stage.5.name
+    desc = unbidden_captain_arc.stage.5.desc
+    picture = GFX_evt_zro_2
+    show_sound = event_wind_ruins
+    location = from
+
+    archaeology = yes
+
+    is_triggered_only = yes
+
+    immediate = {
+        from = {
+            set_site_progress_locked = yes
+        }
+    }
+
+    option = {
+        name = unbidden_captain_arc.stage.5.yes
+        hidden_effect = {
+            owner = {
+                create_species = {
+                    name = unbidden_captain_arc.species.name
+                    class = EXD
+                    portrait = exd1
+                }
+                create_leader = {
+                    class = admiral
+                    species = last_created_species
+                    name = unbidden_captain_arc.admiral.name
+                    event_leader = yes
+                    skill = 10
+                    traits = {
+                        trait = leader_trait_ethereal
+                        trait = leader_trait_dimensional_stutter
+                        trait = leader_trait_admiral_chosen
+                        trait = leader_trait_admiral_instrument_chosen
+                        trait = leader_trait_admiral_eater_chosen
+                        trait = leader_trait_admiral_whisperers_chosen
+                    }
+                }
+            }
+        }
+    }
+
+    after = {
+        from = {
+            set_site_progress_locked = no
+        }
+    }
+
+}
