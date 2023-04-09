@@ -619,7 +619,7 @@ NGameplay = {
     UPGRADED_STARBASE_BASE_LEVEL	= "starbase_level_starport"		# The first starbase level you upgrade to
 
     # TECH_TO_SURVEY_OWNED = "tech_galactic_ambitions"
-    ASCENSION_PERKS_SLOTS				= 8 # Number of ascension perk slots
+    ASCENSION_PERKS_SLOTS				= 64 # Number of ascension perk slots
 
     # Planetary Ascension Tier cap formula:
     #     Max( ( Unlocked Ascension Perks Slots - 2 ), PLANET_ASCENSION_MIN ) +
