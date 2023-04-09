@@ -1,6 +1,7 @@
 # 高维的求救信号
 
 site_high_dimensional_distress_signal = {
+
 	desc = "site_mysterious_signals"
 	picture = GFX_evt_underwater_ruins
 	stages = 4
