@@ -164,6 +164,10 @@ fleet_event = {
                         trait = leader_trait_admiral_whisperers_chosen
                     }
                 }
+                add_tech_progress = {
+                    tech = tech_extradimensional_weapon_1
+                    progress = 1
+                }
             }
         }
     }
