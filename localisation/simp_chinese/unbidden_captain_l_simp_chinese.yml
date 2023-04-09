@@ -14,5 +14,6 @@
  unbidden_captain_arc.stage.5.name:0 "§M真相§!"
  unbidden_captain_arc.stage.5.desc:0 "空间裂缝的后面，是一个紧急救生舱，舰载人工智能用了2个小时理解了我们的语言，通过和搭载的人工智能的交流，得知这个救生舱竟然来自更高的维度，在它弹射后由于复杂的环境进入了这个空间裂缝。\n\n搭载的人员已经救出，从沟通中得知它是一个高维帝国的舰队司令，由于它受伤严重，短时间内无法升维返回故乡，帝国愿意提供资源让它恢复，它也愿意为帝国海军效力，同时，它还提供了§M神秘的武器科技§!。"
  unbidden_captain_arc.stage.5.yes:0 "指挥官，欢迎加入帝国海军"
+ unbidden_captain_arc.stage.5.custom_tooltip:0 "§M猎人§!将会加入你的帝国。\n\n获得科技§M高维度武器。§!"
  unbidden_captain_arc.admiral.name:0 "§M猎人§!"
  unbidden_captain_arc.species.name:0 "§M神秘高维生物§!"

@@ -142,6 +142,7 @@ fleet_event = {
 
     option = {
         name = unbidden_captain_arc.stage.5.yes
+        custom_tooltip = unbidden_captain_arc.stage.5.custom_tooltip
         hidden_effect = {
             owner = {
                 create_species = {
