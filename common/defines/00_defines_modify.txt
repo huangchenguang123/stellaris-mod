@@ -1,5 +1,7 @@
 # 修改原版建筑槽
 # 修改恒星基地被攻击的概率
+# 修改飞升槽
+# 修改传统槽
 
 NGameplay = {
     #Number of tick commands we sent per turn, this is very useful for ppl running the game in fullscreen, a much faster simulation speed should be reached
@@ -800,7 +802,7 @@ NGameplay = {
     PLANET_COLONIZED_STRING				= "colonized"	# Identifies when a planet is newly colonized in telemetries
     PLANET_ACQUIRED_STRING				= "acquired"	# Identifies when a planet was acquired in any way from another empire in telemetries
 
-    TRADITION_CATEGORIES_MAX			= 7
+    TRADITION_CATEGORIES_MAX			= 64
 
     CATAPULT_MIN_REACH = 5			# How far the catapult should reach at the least
     CATAPULT_MIN_RADIUS = 10			# Minimum radius of a catapult circle
