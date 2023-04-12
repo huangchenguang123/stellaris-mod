@@ -169,6 +169,7 @@ fleet_event = {
                     tech = tech_extradimensional_weapon_1
                     progress = 1
                 }
+                set_country_flag =  has_finish_unbidden_captain_arc
             }
         }
     }
